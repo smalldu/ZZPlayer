@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0iM-hD-680">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="bdf-Xr-cvw">
+            <objects>
+                <viewController id="0iM-hD-680" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fUc-5g-6Xb"/>
+                        <viewControllerLayoutGuide type="bottom" id="DAu-4m-0bB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gz2-d7-9nR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mo5-M5-gu3">
+                                <rect key="frame" x="250" y="268" width="100" height="65"/>
+                                <color key="backgroundColor" red="1" green="0.14781642049999999" blue="0.28030054059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="U6W-kS-UA3"/>
+                                    <constraint firstAttribute="width" secondItem="Mo5-M5-gu3" secondAttribute="height" multiplier="23:15" id="fIc-9G-sMj"/>
+                                </constraints>
+                                <state key="normal" title="Go Play">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="popoverPresentation" popoverAnchorView="Mo5-M5-gu3" id="fRE-9F-NJ8">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mo5-M5-gu3" firstAttribute="centerY" secondItem="gz2-d7-9nR" secondAttribute="centerY" id="g8z-zn-wFt"/>
+                            <constraint firstItem="Mo5-M5-gu3" firstAttribute="centerX" secondItem="gz2-d7-9nR" secondAttribute="centerX" id="gmJ-pk-YNU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="PU4-8v-NxN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vun-iu-g2g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1185" y="-162"/>
+        </scene>
+        <!--播放网络视频-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="ZZPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Go0-XQ-AoQ" customClass="ZZPlayerView" customModule="ZZPlayer" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="338"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Go0-XQ-AoQ" secondAttribute="height" multiplier="16:9" id="Ows-ZU-Hnk"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Go0-XQ-AoQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="4rd-iy-6ST"/>
+                            <constraint firstItem="Go0-XQ-AoQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9KG-l9-qh1"/>
+                            <constraint firstItem="Go0-XQ-AoQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="tUV-BN-mmQ"/>
+                            <constraint firstAttribute="trailing" secondItem="Go0-XQ-AoQ" secondAttribute="trailing" id="vrO-Rb-p4n"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="tUV-BN-mmQ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="播放网络视频" id="uBg-JL-Ngt"/>
+                    <connections>
+                        <outlet property="playerView" destination="Go0-XQ-AoQ" id="AoF-iK-p0c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1910" y="-258"/>
+        </scene>
+    </scenes>
+</document>

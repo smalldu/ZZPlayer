@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		205686C31D66BE290013F5D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205686C21D66BE290013F5D1 /* AppDelegate.swift */; };
+		205686C51D66BE290013F5D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205686C41D66BE290013F5D1 /* ViewController.swift */; };
+		205686C81D66BE290013F5D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205686C61D66BE290013F5D1 /* Main.storyboard */; };
+		205686CA1D66BE290013F5D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205686C91D66BE290013F5D1 /* Assets.xcassets */; };
+		205686CD1D66BE290013F5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205686CB1D66BE290013F5D1 /* LaunchScreen.storyboard */; };
+		205686D81D66BE290013F5D1 /* ZZPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205686D71D66BE290013F5D1 /* ZZPlayerTests.swift */; };
+		205686E31D66BE290013F5D1 /* ZZPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205686E21D66BE290013F5D1 /* ZZPlayerUITests.swift */; };
+		205686F11D66C9FE0013F5D1 /* ZZPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205686F01D66C9FE0013F5D1 /* ZZPlayerView.swift */; };
+		205687021D66ED3B0013F5D1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 205686F31D66ED3B0013F5D1 /* LICENSE */; };
+		205687031D66ED3B0013F5D1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 205686F41D66ED3B0013F5D1 /* README.md */; };
+		205687041D66ED3B0013F5D1 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205686F61D66ED3B0013F5D1 /* Constraint.swift */; };
+		205687051D66ED3B0013F5D1 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205686F71D66ED3B0013F5D1 /* ConstraintAttributes.swift */; };
+		205687061D66ED3B0013F5D1 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205686F81D66ED3B0013F5D1 /* ConstraintDescription.swift */; };
+		205687071D66ED3B0013F5D1 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205686F91D66ED3B0013F5D1 /* ConstraintItem.swift */; };
+		205687081D66ED3B0013F5D1 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205686FA1D66ED3B0013F5D1 /* ConstraintMaker.swift */; };
+		205687091D66ED3B0013F5D1 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205686FB1D66ED3B0013F5D1 /* ConstraintRelation.swift */; };
+		2056870A1D66ED3B0013F5D1 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205686FC1D66ED3B0013F5D1 /* Debugging.swift */; };
+		2056870B1D66ED3B0013F5D1 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205686FD1D66ED3B0013F5D1 /* EdgeInsets.swift */; };
+		2056870C1D66ED3B0013F5D1 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205686FE1D66ED3B0013F5D1 /* LayoutConstraint.swift */; };
+		2056870D1D66ED3B0013F5D1 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205686FF1D66ED3B0013F5D1 /* SnapKit.swift */; };
+		2056870E1D66ED3B0013F5D1 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205687001D66ED3B0013F5D1 /* View+SnapKit.swift */; };
+		2056870F1D66ED3B0013F5D1 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205687011D66ED3B0013F5D1 /* ViewController+SnapKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		205686D41D66BE290013F5D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205686B71D66BE290013F5D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205686BE1D66BE290013F5D1;
+			remoteInfo = ZZPlayer;
+		};
+		205686DF1D66BE290013F5D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205686B71D66BE290013F5D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205686BE1D66BE290013F5D1;
+			remoteInfo = ZZPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		205686BF1D66BE290013F5D1 /* ZZPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		205686C21D66BE290013F5D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		205686C41D66BE290013F5D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		205686C71D66BE290013F5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		205686C91D66BE290013F5D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		205686CC1D66BE290013F5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		205686CE1D66BE290013F5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205686D31D66BE290013F5D1 /* ZZPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		205686D71D66BE290013F5D1 /* ZZPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZPlayerTests.swift; sourceTree = "<group>"; };
+		205686D91D66BE290013F5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205686DE1D66BE290013F5D1 /* ZZPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		205686E21D66BE290013F5D1 /* ZZPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZPlayerUITests.swift; sourceTree = "<group>"; };
+		205686E41D66BE2A0013F5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205686F01D66C9FE0013F5D1 /* ZZPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZPlayerView.swift; sourceTree = "<group>"; };
+		205686F31D66ED3B0013F5D1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		205686F41D66ED3B0013F5D1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		205686F61D66ED3B0013F5D1 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		205686F71D66ED3B0013F5D1 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		205686F81D66ED3B0013F5D1 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		205686F91D66ED3B0013F5D1 /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		205686FA1D66ED3B0013F5D1 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		205686FB1D66ED3B0013F5D1 /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		205686FC1D66ED3B0013F5D1 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		205686FD1D66ED3B0013F5D1 /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		205686FE1D66ED3B0013F5D1 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		205686FF1D66ED3B0013F5D1 /* SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKit.swift; sourceTree = "<group>"; };
+		205687001D66ED3B0013F5D1 /* View+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+SnapKit.swift"; sourceTree = "<group>"; };
+		205687011D66ED3B0013F5D1 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		205686BC1D66BE290013F5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205686D01D66BE290013F5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205686DB1D66BE290013F5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		205686B61D66BE290013F5D1 = {
+			isa = PBXGroup;
+			children = (
+				205686C11D66BE290013F5D1 /* ZZPlayer */,
+				205686D61D66BE290013F5D1 /* ZZPlayerTests */,
+				205686E11D66BE290013F5D1 /* ZZPlayerUITests */,
+				205686C01D66BE290013F5D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		205686C01D66BE290013F5D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				205686BF1D66BE290013F5D1 /* ZZPlayer.app */,
+				205686D31D66BE290013F5D1 /* ZZPlayerTests.xctest */,
+				205686DE1D66BE290013F5D1 /* ZZPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		205686C11D66BE290013F5D1 /* ZZPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				205687101D6718000013F5D1 /* ZZPlayer */,
+				205686F21D66ED3B0013F5D1 /* SnapKit */,
+				205686C21D66BE290013F5D1 /* AppDelegate.swift */,
+				205686C41D66BE290013F5D1 /* ViewController.swift */,
+				205686C61D66BE290013F5D1 /* Main.storyboard */,
+				205686C91D66BE290013F5D1 /* Assets.xcassets */,
+				205686CB1D66BE290013F5D1 /* LaunchScreen.storyboard */,
+				205686CE1D66BE290013F5D1 /* Info.plist */,
+			);
+			path = ZZPlayer;
+			sourceTree = "<group>";
+		};
+		205686D61D66BE290013F5D1 /* ZZPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				205686D71D66BE290013F5D1 /* ZZPlayerTests.swift */,
+				205686D91D66BE290013F5D1 /* Info.plist */,
+			);
+			path = ZZPlayerTests;
+			sourceTree = "<group>";
+		};
+		205686E11D66BE290013F5D1 /* ZZPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				205686E21D66BE290013F5D1 /* ZZPlayerUITests.swift */,
+				205686E41D66BE2A0013F5D1 /* Info.plist */,
+			);
+			path = ZZPlayerUITests;
+			sourceTree = "<group>";
+		};
+		205686F21D66ED3B0013F5D1 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				205686F31D66ED3B0013F5D1 /* LICENSE */,
+				205686F41D66ED3B0013F5D1 /* README.md */,
+				205686F51D66ED3B0013F5D1 /* Source */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		205686F51D66ED3B0013F5D1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				205686F61D66ED3B0013F5D1 /* Constraint.swift */,
+				205686F71D66ED3B0013F5D1 /* ConstraintAttributes.swift */,
+				205686F81D66ED3B0013F5D1 /* ConstraintDescription.swift */,
+				205686F91D66ED3B0013F5D1 /* ConstraintItem.swift */,
+				205686FA1D66ED3B0013F5D1 /* ConstraintMaker.swift */,
+				205686FB1D66ED3B0013F5D1 /* ConstraintRelation.swift */,
+				205686FC1D66ED3B0013F5D1 /* Debugging.swift */,
+				205686FD1D66ED3B0013F5D1 /* EdgeInsets.swift */,
+				205686FE1D66ED3B0013F5D1 /* LayoutConstraint.swift */,
+				205686FF1D66ED3B0013F5D1 /* SnapKit.swift */,
+				205687001D66ED3B0013F5D1 /* View+SnapKit.swift */,
+				205687011D66ED3B0013F5D1 /* ViewController+SnapKit.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		205687101D6718000013F5D1 /* ZZPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				205686F01D66C9FE0013F5D1 /* ZZPlayerView.swift */,
+			);
+			name = ZZPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		205686BE1D66BE290013F5D1 /* ZZPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205686E71D66BE2A0013F5D1 /* Build configuration list for PBXNativeTarget "ZZPlayer" */;
+			buildPhases = (
+				205686BB1D66BE290013F5D1 /* Sources */,
+				205686BC1D66BE290013F5D1 /* Frameworks */,
+				205686BD1D66BE290013F5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZPlayer;
+			productName = ZZPlayer;
+			productReference = 205686BF1D66BE290013F5D1 /* ZZPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		205686D21D66BE290013F5D1 /* ZZPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205686EA1D66BE2A0013F5D1 /* Build configuration list for PBXNativeTarget "ZZPlayerTests" */;
+			buildPhases = (
+				205686CF1D66BE290013F5D1 /* Sources */,
+				205686D01D66BE290013F5D1 /* Frameworks */,
+				205686D11D66BE290013F5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				205686D51D66BE290013F5D1 /* PBXTargetDependency */,
+			);
+			name = ZZPlayerTests;
+			productName = ZZPlayerTests;
+			productReference = 205686D31D66BE290013F5D1 /* ZZPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		205686DD1D66BE290013F5D1 /* ZZPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205686ED1D66BE2A0013F5D1 /* Build configuration list for PBXNativeTarget "ZZPlayerUITests" */;
+			buildPhases = (
+				205686DA1D66BE290013F5D1 /* Sources */,
+				205686DB1D66BE290013F5D1 /* Frameworks */,
+				205686DC1D66BE290013F5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				205686E01D66BE290013F5D1 /* PBXTargetDependency */,
+			);
+			name = ZZPlayerUITests;
+			productName = ZZPlayerUITests;
+			productReference = 205686DE1D66BE290013F5D1 /* ZZPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		205686B71D66BE290013F5D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dz;
+				TargetAttributes = {
+					205686BE1D66BE290013F5D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					205686D21D66BE290013F5D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 205686BE1D66BE290013F5D1;
+					};
+					205686DD1D66BE290013F5D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 205686BE1D66BE290013F5D1;
+					};
+				};
+			};
+			buildConfigurationList = 205686BA1D66BE290013F5D1 /* Build configuration list for PBXProject "ZZPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 205686B61D66BE290013F5D1;
+			productRefGroup = 205686C01D66BE290013F5D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				205686BE1D66BE290013F5D1 /* ZZPlayer */,
+				205686D21D66BE290013F5D1 /* ZZPlayerTests */,
+				205686DD1D66BE290013F5D1 /* ZZPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		205686BD1D66BE290013F5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205686CD1D66BE290013F5D1 /* LaunchScreen.storyboard in Resources */,
+				205686CA1D66BE290013F5D1 /* Assets.xcassets in Resources */,
+				205687021D66ED3B0013F5D1 /* LICENSE in Resources */,
+				205686C81D66BE290013F5D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205686D11D66BE290013F5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205686DC1D66BE290013F5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		205686BB1D66BE290013F5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2056870C1D66ED3B0013F5D1 /* LayoutConstraint.swift in Sources */,
+				205686C51D66BE290013F5D1 /* ViewController.swift in Sources */,
+				205686F11D66C9FE0013F5D1 /* ZZPlayerView.swift in Sources */,
+				2056870B1D66ED3B0013F5D1 /* EdgeInsets.swift in Sources */,
+				205687081D66ED3B0013F5D1 /* ConstraintMaker.swift in Sources */,
+				205687031D66ED3B0013F5D1 /* README.md in Sources */,
+				2056870D1D66ED3B0013F5D1 /* SnapKit.swift in Sources */,
+				2056870A1D66ED3B0013F5D1 /* Debugging.swift in Sources */,
+				205687071D66ED3B0013F5D1 /* ConstraintItem.swift in Sources */,
+				205687051D66ED3B0013F5D1 /* ConstraintAttributes.swift in Sources */,
+				205687091D66ED3B0013F5D1 /* ConstraintRelation.swift in Sources */,
+				2056870F1D66ED3B0013F5D1 /* ViewController+SnapKit.swift in Sources */,
+				2056870E1D66ED3B0013F5D1 /* View+SnapKit.swift in Sources */,
+				205687041D66ED3B0013F5D1 /* Constraint.swift in Sources */,
+				205687061D66ED3B0013F5D1 /* ConstraintDescription.swift in Sources */,
+				205686C31D66BE290013F5D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205686CF1D66BE290013F5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205686D81D66BE290013F5D1 /* ZZPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205686DA1D66BE290013F5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205686E31D66BE290013F5D1 /* ZZPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		205686D51D66BE290013F5D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 205686BE1D66BE290013F5D1 /* ZZPlayer */;
+			targetProxy = 205686D41D66BE290013F5D1 /* PBXContainerItemProxy */;
+		};
+		205686E01D66BE290013F5D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 205686BE1D66BE290013F5D1 /* ZZPlayer */;
+			targetProxy = 205686DF1D66BE290013F5D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		205686C61D66BE290013F5D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				205686C71D66BE290013F5D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		205686CB1D66BE290013F5D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				205686CC1D66BE290013F5D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		205686E51D66BE2A0013F5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		205686E61D66BE2A0013F5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		205686E81D66BE2A0013F5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.qrcode.ZZPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		205686E91D66BE2A0013F5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.qrcode.ZZPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		205686EB1D66BE2A0013F5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.qrcode.ZZPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZPlayer.app/ZZPlayer";
+			};
+			name = Debug;
+		};
+		205686EC1D66BE2A0013F5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.qrcode.ZZPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZPlayer.app/ZZPlayer";
+			};
+			name = Release;
+		};
+		205686EE1D66BE2A0013F5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.qrcode.ZZPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZPlayer;
+			};
+			name = Debug;
+		};
+		205686EF1D66BE2A0013F5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.qrcode.ZZPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		205686BA1D66BE290013F5D1 /* Build configuration list for PBXProject "ZZPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205686E51D66BE2A0013F5D1 /* Debug */,
+				205686E61D66BE2A0013F5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205686E71D66BE2A0013F5D1 /* Build configuration list for PBXNativeTarget "ZZPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205686E81D66BE2A0013F5D1 /* Debug */,
+				205686E91D66BE2A0013F5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205686EA1D66BE2A0013F5D1 /* Build configuration list for PBXNativeTarget "ZZPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205686EB1D66BE2A0013F5D1 /* Debug */,
+				205686EC1D66BE2A0013F5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205686ED1D66BE2A0013F5D1 /* Build configuration list for PBXNativeTarget "ZZPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205686EE1D66BE2A0013F5D1 /* Debug */,
+				205686EF1D66BE2A0013F5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 205686B71D66BE290013F5D1 /* Project object */;
+}
